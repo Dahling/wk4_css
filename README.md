@@ -19,10 +19,6 @@ This is a personal portfolio project.
 * _Open any of the files up, via a program like Atom, in order to see the code or play around with it._
 * _Have a lovely day_
 
-## RawGit Link
-[Portfolio](https://rawgit.com/Dahling/portfolio/master/index.html)
-
-
 ## Known Bugs
 
 I'm not sure there's any sort of bug; but, if there is, I hope it's a ladybug.
