@@ -1,25 +1,6 @@
-/*---------------Images---------------*/
 
-// .mom {
-//   background-image: url("../img/mom.gif");
-//   @include rowPicture;
-//   height: 700px;
-//   opacity: none;
-//   margin-top: 10px;
-//   @media only screen and (max-width: 600px) {
-//       text-align: center;
-//     }
-// }
-//
-// .us {
-//   background-image: url("../img/MomMe.png");
-//   @include rowPicture;
-//   height: 500px;
-//   margin-top: 10px;
-//   margin-bottom: 10px;
-// }
-//
-// img {
-//   width: 50%;
-//   height: 50%;
-// }
+.beach {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}

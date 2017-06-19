@@ -1,18 +1,7 @@
-/*-----FOOTER-----*/
-
-.footer {
-
-
+.footer-container {
+  @extend .flex-container;
 }
 
-#copyright {
-
-
-}
-
-// Links
-
-.footer-links {
-
-
+.page-footer {
+  background-color: black;
 }

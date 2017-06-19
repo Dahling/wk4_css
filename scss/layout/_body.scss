@@ -27,9 +27,122 @@ body, html {
 body {
   // background-image: url('../img/confetti.png');
   background-color: white;
+  font-family: $font-primary;
 }
+
+
 
 .container {
 
 
 }
+
+
+//MEDIA QUERIES
+$large: 969px;
+$medium: 750px;
+$small: 600px;
+$xxsmall: 400px;
+
+
+  .section {
+    display: flex;
+    background-color: black;
+     height: "5000px";
+  }
+
+  .parallax-container {
+   }
+
+  .third-container {
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+    align-items: center;
+    @media screen and(max-width: $medium) {
+      text-align: left;
+      width: 100%;
+      flex-direction: column;
+      padding-top: 20px;
+    }
+    @media screen and(max-width: $small) {
+      text-align: left;
+      width: 100%;
+      flex-direction: column;
+      padding-top: 20px;
+    }
+  }
+
+  .para {
+    border: 0px solid black;
+    padding: 5px;
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    // padding: 0 10px;
+    text-align: justify;
+    align-items: center;
+    @media screen and(max-width: $medium) {
+      text-align: left;
+      width: 100%;
+      padding-top: 20px;
+    }
+    @media screen and(max-width: $small) {
+      text-align: left;
+      width: 100%;
+      padding-top: 20px;
+    }
+  }
+
+  .one {
+    padding: 30px 50px;
+    // border: 15px solid black;
+    display: flex;
+  }
+
+  .two {
+    padding: 70px 50px;
+    // border: 15px solid black;
+    display: flex;
+  }
+
+  .three {
+    padding: 30px 50px;
+    // border: 15px solid black;
+    display: flex;
+
+  }
+
+  .parallax img {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+
+    @media screen and(max-width: $medium) {
+      height: 60%;
+      width: 100%;
+    }
+    @media screen and(max-width: $small) {
+      height: 60%;
+      width: 100%;
+    }
+  }
+
+  .grey-text, .text-lighten-3 {
+    font-family: $font-secondary;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    //
+    //   text-align: center;
+      // transform: scale(1) rotate(25deg);
+      // border: 2px solid black;
+  }
