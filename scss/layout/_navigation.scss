@@ -1,0 +1,12 @@
+/*--NAVBAR--*/
+
+
+
+a {
+    @include transition( all 1s ); /*Bourbon Mixin*/
+
+  &:focus {
+      @include transition( all 1s ); /*Bourbon Mixin*/
+  
+  }
+}
