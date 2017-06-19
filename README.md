@@ -1,13 +1,12 @@
 # _Portfolio_
 
-#### _Week Eight Epicodus Project (Week 4 of CSS Track) 6.16.2017_
+#### _Week 4 of CSS Track 6.16.2017_
 
 #### By _**Jenna Cooper**_
 
 ## Description
 
 This is a personal portfolio project.
-__
 
 
 
