@@ -82,11 +82,15 @@ $xxsmall: 400px;
     padding: 5px;
     margin: 1%;
     display: flex;
-    justify-content: space-between;
-    align-content: space-between;
+    justify-content:center;
+    align-items: baseline;
+    flex-direction: row;
+    line-height: 125%;
+    font-size: 120%;
+    height: auto;
+
     // padding: 0 10px;
-    text-align: justify;
-    align-items: center;
+    // text-align: justify;
     @media screen and(max-width: $medium) {
       text-align: left;
       width: 100%;

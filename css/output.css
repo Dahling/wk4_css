@@ -504,10 +504,12 @@ body {
   padding: 5px;
   margin: 1%;
   display: flex;
-  justify-content: space-between;
-  align-content: space-between;
-  text-align: justify;
-  align-items: center; }
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: row;
+  line-height: 125%;
+  font-size: 120%;
+  height: auto; }
   @media screen and (max-width: 750px) {
     .para {
       text-align: left;
