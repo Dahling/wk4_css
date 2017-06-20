@@ -442,6 +442,11 @@ table {
   width: 100%;
   height: 100%; }
 
+.one {
+  padding: 30px 50px;
+  border: 10px solid black;
+  display: flex; }
+
 /*-----------------GENERIC CSS------------------------*/
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
@@ -708,100 +713,25 @@ a {
     .flex-container li:last-child > a:active, .footer-container li:last-child > a:active {
       color: crimson; }
 
-.header {
-  color: black;
-  padding: 50px 70px 0px 70px; }
-  .header a {
-    color: black;
-    font-size: 50px;
-    font-weight: 900;
-    font-family: "Cookie", cursive; }
-
 #about {
   text-align: center; }
-
-#header-title {
-  font-size: 450%; }
-  #header-title a {
-    color: black; }
-    #header-title a:hover {
-      color: black; }
-    #header-title a:focus {
-      color: mistyrose;
-      transform: scale(2) rotate(35deg); }
-    #header-title a:active {
-      color: crimson; }
-  @media screen and (max-width: 750px) {
-    #header-title {
-      font-size: 200%; } }
-  @media screen and (max-width: 600px) {
-    #header-title {
-      font-size: 250%;
-      text-align: center; } }
-
-.page-footer {
-  background-color: black; }
 
 ul:not(.browser-default) li {
   padding-top: 10px; }
 
-.section {
-  display: flex;
-  background-color: black;
-  height: "5000px"; }
-
-.third-container {
-  display: flex;
-  height: auto;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  margin: 0 auto;
-  padding: 50px;
-  align-items: center; }
-  @media screen and (max-width: 750px) {
-    .third-container {
-      text-align: left;
-      width: 100%;
-      flex-direction: column;
-      padding-top: 20px; } }
-  @media screen and (max-width: 600px) {
-    .third-container {
-      text-align: left;
-      width: 100%;
-      flex-direction: column;
-      padding-top: 20px; } }
-
-.para {
-  border: 0px solid black;
-  padding: 5px;
-  margin: 1%;
-  display: flex;
-  justify-content: space-between;
-  align-content: space-between;
-  text-align: justify;
-  align-items: center; }
-  @media screen and (max-width: 750px) {
-    .para {
-      text-align: left;
-      width: 100%;
-      padding-top: 20px; } }
-  @media screen and (max-width: 600px) {
-    .para {
-      text-align: left;
-      width: 100%;
-      padding-top: 20px; } }
-
 .one {
   padding: 30px 50px;
+  border: 10px solid black;
   display: flex; }
 
 .two {
   padding: 70px 50px;
+  border: 10px solid black;
   display: flex; }
 
 .three {
   padding: 30px 50px;
+  border: 10px solid black;
   display: flex; }
 
 .parallax img {

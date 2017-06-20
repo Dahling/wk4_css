@@ -31,15 +31,13 @@
 }
 
 
-
-
 .flex-container ul li a {
   @media screen and(max-width: $small) {
-    // flex-wrap: wrap;
     flex-direction: column;
     margin: 0 auto;
   }
 }
+
 
 .flex-container {
   li {
@@ -113,52 +111,13 @@
   }
 }
 
-.header {
-  color: black;
-  padding: 50px 70px 0px 70px;
-  a {
-    color: black;
-    font-size: 50px;
-    font-weight: 900;
-    font-family: $font-secondary;
-  }
-}
+
 
 #about {
   text-align: center;
 }
 
-#header-title {
-  font-size: 450%;
-  a {
-    color: black;
-    &:hover {
-      color: black;
-    }
-    &:focus {
-      color: mistyrose;
-      transform: scale(2) rotate(35deg);
-    }
-    &:active {
-      color: crimson;
-    }
-  }
-  @media screen and(max-width: $medium) {
-    font-size: 200%;
-  }
-  @media screen and(max-width: $small) {
-    font-size: 250%;
-    text-align: center;
-  }
-}
 
-.page-footer {
-  background-color: black;
-}
-
-.grey-text.text-lighten-4 {
-
-}
 
 ul:not(.browser-default) li
 {
@@ -166,77 +125,22 @@ ul:not(.browser-default) li
   }
 
 
-  .section {
-    display: flex;
-    background-color: black;
-     height: "5000px";
-  }
-
-  .parallax-container {
-   }
-
-  .third-container {
-    display: flex;
-    height: auto;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    margin: 0 auto;
-    padding: 50px;
-    align-items: center;
-    @media screen and(max-width: $medium) {
-      text-align: left;
-      width: 100%;
-      flex-direction: column;
-      padding-top: 20px;
-    }
-    @media screen and(max-width: $small) {
-      text-align: left;
-      width: 100%;
-      flex-direction: column;
-      padding-top: 20px;
-    }
-  }
-
-  .para {
-    border: 0px solid black;
-    padding: 5px;
-    margin: 1%;
-    display: flex;
-    justify-content: space-between;
-    align-content: space-between;
-    // padding: 0 10px;
-    text-align: justify;
-    align-items: center;
-    @media screen and(max-width: $medium) {
-      text-align: left;
-      width: 100%;
-      padding-top: 20px;
-    }
-    @media screen and(max-width: $small) {
-      text-align: left;
-      width: 100%;
-      padding-top: 20px;
-    }
-  }
-
   .one {
     padding: 30px 50px;
-    // border: 15px solid black;
+    border: 10px solid black;
     display: flex;
   }
 
   .two {
     padding: 70px 50px;
-    // border: 15px solid black;
+    border: 10px solid black;
     display: flex;
   }
 
   .three {
     padding: 30px 50px;
-    // border: 15px solid black;
+    border: 10px solid black;
     display: flex;
-
   }
 
   .parallax img {
