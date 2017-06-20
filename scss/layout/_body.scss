@@ -40,6 +40,7 @@ body {
 
 //MEDIA QUERIES
 $large: 969px;
+$mediumplus: 969px;
 $medium: 750px;
 $small: 600px;
 $xxsmall: 400px;
@@ -63,6 +64,12 @@ $xxsmall: 400px;
     margin: 0 auto;
     padding: 50px;
     align-items: center;
+    @media screen and(max-width: $mediumplus) {
+      text-align: left;
+      width: 100%;
+      flex-direction: column;
+      padding-top: 20px;
+    }
     @media screen and(max-width: $medium) {
       text-align: left;
       width: 100%;
@@ -83,14 +90,18 @@ $xxsmall: 400px;
     margin: 1%;
     display: flex;
     justify-content:center;
-    align-items: baseline;
+    align-items: center;
     flex-direction: row;
     line-height: 125%;
     font-size: 120%;
     height: auto;
 
-    // padding: 0 10px;
-    // text-align: justify;
+
+    @media screen and(max-width: $mediumplus) {
+      text-align: left;
+      width: 100%;
+      padding-top: 20px;
+    }
     @media screen and(max-width: $medium) {
       text-align: left;
       width: 100%;

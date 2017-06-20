@@ -486,6 +486,12 @@ body {
   margin: 0 auto;
   padding: 50px;
   align-items: center; }
+  @media screen and (max-width: 969px) {
+    .third-container {
+      text-align: left;
+      width: 100%;
+      flex-direction: column;
+      padding-top: 20px; } }
   @media screen and (max-width: 750px) {
     .third-container {
       text-align: left;
@@ -505,11 +511,16 @@ body {
   margin: 1%;
   display: flex;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
   flex-direction: row;
   line-height: 125%;
   font-size: 120%;
   height: auto; }
+  @media screen and (max-width: 969px) {
+    .para {
+      text-align: left;
+      width: 100%;
+      padding-top: 20px; } }
   @media screen and (max-width: 750px) {
     .para {
       text-align: left;
